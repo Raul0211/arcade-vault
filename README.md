@@ -14,5 +14,12 @@ https://github.com/Klerith/fernando-skills
 ```bash
 npx skills@latest add Klerith/fernando-skills
 ```
+## Commands
 
-## Hola Mundo
+```bash
+npm run dev     # dev server (Turbopack)
+npm run build   # production build (also type-checks)
+npm run start   # serve production build
+npm run lint    # ESLint 9 flat config (eslint-config-next core-web-vitals + typescript)
+npx tsc --noEmit  # type-check only
+```
